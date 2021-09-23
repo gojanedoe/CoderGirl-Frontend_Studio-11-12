@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./MovieCard.scss";
 
-const MovieCard = props => {
+const MovieCard = (props) => {
   const { movie } = props;
 
   return (
@@ -21,7 +21,7 @@ const MovieCard = props => {
 };
 
 MovieCard.propTypes = {
-  movie: PropTypes.object.isRequired,
+  movie: PropTypes.object.isRequired
 };
 
 export default MovieCard;
